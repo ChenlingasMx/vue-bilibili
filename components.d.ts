@@ -8,6 +8,12 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
+    ACard: typeof import('ant-design-vue/es')['Card']
+    ACardMeta: typeof import('ant-design-vue/es')['CardMeta']
+    ACarousel: typeof import('ant-design-vue/es')['Carousel']
+    ACol: typeof import('ant-design-vue/es')['Col']
+    ARow: typeof import('ant-design-vue/es')['Row']
+    ASpin: typeof import('ant-design-vue/es')['Spin']
     Button: typeof import('./src/components/button/Button.vue')['default']
     Content: typeof import('./src/components/layout/Content.vue')['default']
     Footer: typeof import('./src/components/layout/Footer.vue')['default']
@@ -19,6 +25,7 @@ declare module 'vue' {
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     Layout: typeof import('./src/components/layout/Layout.vue')['default']
+    PageHeader: typeof import('./src/components/page-header/PageHeader.vue')['default']
     Rate: typeof import('./src/components/Rate.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

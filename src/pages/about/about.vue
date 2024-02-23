@@ -1,5 +1,5 @@
 <template>
-  <div>关于 {{ $route.name }}</div>
+  <div>关于</div>
 </template>
 
 <script setup>
